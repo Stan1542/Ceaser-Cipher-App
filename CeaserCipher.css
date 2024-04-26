@@ -61,3 +61,23 @@ button {
   font-size: 22px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.info{
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info-btn{
+
+  background: white;
+  border: none;
+  width: 20px;
+  border-radius: 50px;
+  color: black;
+  margin-top: 10px;
+  margin-left: 137px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+}
