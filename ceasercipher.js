@@ -74,3 +74,8 @@ btnDecrypt.addEventListener('click', () => {
 
   newText = ''; // we reset the text after the loop
 });
+
+//infomation alert button
+document.getElementById("info-btn").addEventListener('click', () =>{
+     alert("The Ceaser cipher is set to a constant value as it requires a constant value to encrypt and decrypt while it shifts the letters in this case the user can not shift the values therfore the constant value stays as 3.")
+})
